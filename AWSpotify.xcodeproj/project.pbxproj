@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE125EE01F62ECB60090486B /* WebserviceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125EDF1F62ECB60090486B /* WebserviceClient.swift */; };
+		CE125EE21F62ED0C0090486B /* SerializationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125EE11F62ED0C0090486B /* SerializationClient.swift */; };
+		CE125EE41F62F0F60090486B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125EE31F62F0F60090486B /* Constant.swift */; };
+		CE125EE61F6340CE0090486B /* ArtistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125EE51F6340CE0090486B /* ArtistCollectionViewCell.swift */; };
+		CE125EE81F63431E0090486B /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125EE71F63431E0090486B /* Artist.swift */; };
+		CE125EEA1F6382C30090486B /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125EE91F6382C30090486B /* Album.swift */; };
+		CE125EEC1F6390280090486B /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125EEB1F6390280090486B /* Track.swift */; };
+		CE125EEE1F6394600090486B /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125EED1F6394600090486B /* AlbumViewController.swift */; };
+		CE125EF11F6399F70090486B /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125EF01F6399F70090486B /* TrackTableViewCell.swift */; };
+		CE125EF31F639C760090486B /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE125EF21F639C760090486B /* TrackViewController.swift */; };
+		CE1CC8781F62E9C40006469F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1CC8771F62E9C40006469F /* AppDelegate.swift */; };
+		CE1CC87A1F62E9C40006469F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1CC8791F62E9C40006469F /* SearchViewController.swift */; };
+		CE1CC87D1F62E9C40006469F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1CC87B1F62E9C40006469F /* Main.storyboard */; };
+		CE1CC87F1F62E9C40006469F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1CC87E1F62E9C40006469F /* Assets.xcassets */; };
+		CE1CC8821F62E9C40006469F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1CC8801F62E9C40006469F /* LaunchScreen.storyboard */; };
+		CE1CC8921F62EBD50006469F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CE1CC8911F62EBD50006469F /* Podfile */; };
+		CE89AD961F643CE200B91976 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE89AD951F643CE200B91976 /* SpotifyAuthentication.framework */; };
+		CE89AD9A1F64884600B91976 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89AD991F64884600B91976 /* LoginViewController.swift */; };
+		CE89AD9C1F663B4700B91976 /* UIImageView+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89AD9B1F663B4700B91976 /* UIImageView+Async.swift */; };
+		CED5FCA41F69A01A00679918 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CED5FCA31F69A01A00679918 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE125EDF1F62ECB60090486B /* WebserviceClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceClient.swift; sourceTree = "<group>"; };
+		CE125EE11F62ED0C0090486B /* SerializationClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializationClient.swift; sourceTree = "<group>"; };
+		CE125EE31F62F0F60090486B /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CE125EE51F6340CE0090486B /* ArtistCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE125EE71F63431E0090486B /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		CE125EE91F6382C30090486B /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		CE125EEB1F6390280090486B /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		CE125EED1F6394600090486B /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		CE125EF01F6399F70090486B /* TrackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
+		CE125EF21F639C760090486B /* TrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		CE1CC8741F62E9C40006469F /* AWSpotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSpotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1CC8771F62E9C40006469F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE1CC8791F62E9C40006469F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CE1CC87C1F62E9C40006469F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE1CC87E1F62E9C40006469F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE1CC8811F62E9C40006469F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE1CC8831F62E9C40006469F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1CC8911F62EBD50006469F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CE89AD951F643CE200B91976 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		CE89AD971F64402000B91976 /* SpotifySDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SpotifySDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE89AD981F64408700B91976 /* AWSpotify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWSpotify-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE89AD991F64884600B91976 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE89AD9B1F663B4700B91976 /* UIImageView+Async.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Async.swift"; sourceTree = "<group>"; };
+		CED5FCA31F69A01A00679918 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1CC8711F62E9C40006469F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE89AD961F643CE200B91976 /* SpotifyAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE125EEF1F6394930090486B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE125EE51F6340CE0090486B /* ArtistCollectionViewCell.swift */,
+				CE125EF01F6399F70090486B /* TrackTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CE1CC86B1F62E9C40006469F = {
+			isa = PBXGroup;
+			children = (
+				CE1CC8761F62E9C40006469F /* AWSpotify */,
+				CE1CC8751F62E9C40006469F /* Products */,
+				CE1CC8891F62EA7E0006469F /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		CE1CC8751F62E9C40006469F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE1CC8741F62E9C40006469F /* AWSpotify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1CC8761F62E9C40006469F /* AWSpotify */ = {
+			isa = PBXGroup;
+			children = (
+				CE1CC8771F62E9C40006469F /* AppDelegate.swift */,
+				CE125EE31F62F0F60090486B /* Constant.swift */,
+				CE1CC88F1F62EB710006469F /* NetworkLayer */,
+				CE1CC88D1F62EB040006469F /* BusinessLayer */,
+				CE1CC88A1F62EAA70006469F /* ViewController */,
+			);
+			path = AWSpotify;
+			sourceTree = "<group>";
+		};
+		CE1CC8891F62EA7E0006469F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE89AD941F643CE200B91976 /* 3rdPartyFramework */,
+				CE1CC8911F62EBD50006469F /* Podfile */,
+				CED5FCA31F69A01A00679918 /* README.md */,
+				CE1CC87B1F62E9C40006469F /* Main.storyboard */,
+				CE1CC8801F62E9C40006469F /* LaunchScreen.storyboard */,
+				CE1CC87E1F62E9C40006469F /* Assets.xcassets */,
+				CE1CC8831F62E9C40006469F /* Info.plist */,
+			);
+			name = Resources;
+			path = AWSpotify;
+			sourceTree = "<group>";
+		};
+		CE1CC88A1F62EAA70006469F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE125EEF1F6394930090486B /* Views */,
+				CE1CC8791F62E9C40006469F /* SearchViewController.swift */,
+				CE125EED1F6394600090486B /* AlbumViewController.swift */,
+				CE125EF21F639C760090486B /* TrackViewController.swift */,
+				CE89AD991F64884600B91976 /* LoginViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		CE1CC88D1F62EB040006469F /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE1CC88E1F62EB280006469F /* Model */,
+			);
+			name = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		CE1CC88E1F62EB280006469F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE125EE71F63431E0090486B /* Artist.swift */,
+				CE125EE91F6382C30090486B /* Album.swift */,
+				CE125EEB1F6390280090486B /* Track.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CE1CC88F1F62EB710006469F /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE1CC8901F62EB940006469F /* AppNetwork */,
+			);
+			name = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		CE1CC8901F62EB940006469F /* AppNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				CE125EDF1F62ECB60090486B /* WebserviceClient.swift */,
+				CE125EE11F62ED0C0090486B /* SerializationClient.swift */,
+				CE89AD9B1F663B4700B91976 /* UIImageView+Async.swift */,
+			);
+			name = AppNetwork;
+			sourceTree = "<group>";
+		};
+		CE89AD941F643CE200B91976 /* 3rdPartyFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CE89AD971F64402000B91976 /* SpotifySDKDemo-Bridging-Header.h */,
+				CE89AD981F64408700B91976 /* AWSpotify-Bridging-Header.h */,
+				CE89AD951F643CE200B91976 /* SpotifyAuthentication.framework */,
+			);
+			path = 3rdPartyFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE1CC8731F62E9C40006469F /* AWSpotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1CC8861F62E9C40006469F /* Build configuration list for PBXNativeTarget "AWSpotify" */;
+			buildPhases = (
+				CE1CC8701F62E9C40006469F /* Sources */,
+				CE1CC8711F62E9C40006469F /* Frameworks */,
+				CE1CC8721F62E9C40006469F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWSpotify;
+			productName = AWSpotify;
+			productReference = CE1CC8741F62E9C40006469F /* AWSpotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1CC86C1F62E9C40006469F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andrew LEE";
+				TargetAttributes = {
+					CE1CC8731F62E9C40006469F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE1CC86F1F62E9C40006469F /* Build configuration list for PBXProject "AWSpotify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE1CC86B1F62E9C40006469F;
+			productRefGroup = CE1CC8751F62E9C40006469F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE1CC8731F62E9C40006469F /* AWSpotify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE1CC8721F62E9C40006469F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1CC8821F62E9C40006469F /* LaunchScreen.storyboard in Resources */,
+				CE1CC87F1F62E9C40006469F /* Assets.xcassets in Resources */,
+				CE1CC8921F62EBD50006469F /* Podfile in Resources */,
+				CE1CC87D1F62E9C40006469F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1CC8701F62E9C40006469F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE125EE01F62ECB60090486B /* WebserviceClient.swift in Sources */,
+				CE125EE21F62ED0C0090486B /* SerializationClient.swift in Sources */,
+				CE125EE41F62F0F60090486B /* Constant.swift in Sources */,
+				CE1CC87A1F62E9C40006469F /* SearchViewController.swift in Sources */,
+				CE125EF31F639C760090486B /* TrackViewController.swift in Sources */,
+				CE1CC8781F62E9C40006469F /* AppDelegate.swift in Sources */,
+				CE125EEC1F6390280090486B /* Track.swift in Sources */,
+				CE125EEE1F6394600090486B /* AlbumViewController.swift in Sources */,
+				CE125EE61F6340CE0090486B /* ArtistCollectionViewCell.swift in Sources */,
+				CE125EE81F63431E0090486B /* Artist.swift in Sources */,
+				CE125EEA1F6382C30090486B /* Album.swift in Sources */,
+				CE89AD9A1F64884600B91976 /* LoginViewController.swift in Sources */,
+				CED5FCA41F69A01A00679918 /* README.md in Sources */,
+				CE89AD9C1F663B4700B91976 /* UIImageView+Async.swift in Sources */,
+				CE125EF11F6399F70090486B /* TrackTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE1CC87B1F62E9C40006469F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1CC87C1F62E9C40006469F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE1CC8801F62E9C40006469F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1CC8811F62E9C40006469F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE1CC8841F62E9C40006469F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE1CC8851F62E9C40006469F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE1CC8871F62E9C40006469F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AWSpotify/3rdPartyFramework",
+				);
+				INFOPLIST_FILE = AWSpotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awlcs.AWSpotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AWSpotify/3rdPartyFramework/AWSpotify-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE1CC8881F62E9C40006469F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AWSpotify/3rdPartyFramework",
+				);
+				INFOPLIST_FILE = AWSpotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awlcs.AWSpotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AWSpotify/3rdPartyFramework/AWSpotify-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1CC86F1F62E9C40006469F /* Build configuration list for PBXProject "AWSpotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1CC8841F62E9C40006469F /* Debug */,
+				CE1CC8851F62E9C40006469F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1CC8861F62E9C40006469F /* Build configuration list for PBXNativeTarget "AWSpotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1CC8871F62E9C40006469F /* Debug */,
+				CE1CC8881F62E9C40006469F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1CC86C1F62E9C40006469F /* Project object */;
+}
